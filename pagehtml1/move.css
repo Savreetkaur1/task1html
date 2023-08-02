@@ -1,0 +1,11 @@
+.moving-text{
+    animation: movetext 5s linear infinite;
+}
+@keyframes movetext{
+    0%{
+        transform: trnslateX(0);
+    }
+    100%{
+        transform:translateX(200px)
+    }
+}
